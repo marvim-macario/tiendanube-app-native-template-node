@@ -5,6 +5,10 @@ import { AuthenticationController } from "@features/auth";
 import { ProductController } from "@features/product";
 
 const routes = Router();
+routes.get("/", (req, res) => {
+  res.send("Live");
+});
+
 routes.get("/auth/install", AuthenticationController.install);
 routes.post(
   "/products",
