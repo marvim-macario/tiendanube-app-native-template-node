@@ -5,8 +5,7 @@
   "main": "index.js",
   "workspaces": {
     "packages": [
-      "api",
-      "frontend"
+      "api"
     ]
   },
   "scripts": {
